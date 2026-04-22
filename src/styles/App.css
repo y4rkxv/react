@@ -1,3 +1,4 @@
+/* BASE */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@
   width: 800px;
 }
 
+/* POST */
 .post {
   display: flex;
   padding: 15px;
@@ -36,6 +38,11 @@
   transition: all 500ms ease-in;
 }
 
+.post__btns {
+  display: flex;
+}
+
+/* PAGE*/
 .page__wrapper {
   margin-top: 30px;
   display: flex;
@@ -52,6 +59,7 @@
   font-weight: bold;
 }
 
+/* NAVBAR */
 .navbar {
   height: 50px;
   width: 100vw;
